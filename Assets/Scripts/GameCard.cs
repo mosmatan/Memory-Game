@@ -80,7 +80,7 @@ public class GameCard : MonoBehaviour
         OnClick();
     }
 
-    protected virtual void OnClick()
+    private void OnClick()
     {
         Debug.Log(this.gameObject.name + " has pressed and it " + m_Slot.State.ToString());
 
